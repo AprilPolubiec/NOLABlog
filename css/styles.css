@@ -21,17 +21,22 @@ button:focus {
     outline: none;
 }
 
-.hero {
+#hero {
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../img/banner.jpg');
-  height: 50vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.5s;
 }
 
-.hero .hero-text {
+#hero.small{
+  height: 25vh;
+}
+
+#hero #hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -48,7 +53,7 @@ button:focus {
   align-items: center;
 }
 
-.shiny-button {
+#shiny-button {
   padding: 1rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   color: #fff;
@@ -60,11 +65,11 @@ button:focus {
   display: inline-block;
 }
 
-.shiny-button:hover {
+#shiny-button:hover {
   background-color: #000;
 }
 
-.shiny-button:before {
+#shiny-button:before {
   content: '';
   background-color: rgba(255, 255, 255, 0.5);
   height: 100%;
@@ -77,12 +82,12 @@ button:focus {
   transition: none;
 }
 
-.shiny-button:hover:before {
+#shiny-button:hover:before {
   transform: skewX(-45deg) translateX(26.5em);
   transition: all 1.5s ease-in-out;
 }
 
-.hero-text .prompt {
+#hero-text .prompt {
   margin: 1rem;
   display: flex;
   flex-direction: row;
@@ -90,7 +95,7 @@ button:focus {
   justify-content: center;
 }
 
-.hero-text .prompt > select {
+#hero-text .prompt > select {
   margin: 0 1rem 0 1rem;
   width: 25%;
   /* border: 1px solid #fff; */
@@ -102,3 +107,7 @@ button:focus {
   cursor: pointer;
 }
 
+#post-container {
+  min-height: 50vh;
+  display: none;
+}
