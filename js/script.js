@@ -11,6 +11,7 @@ $(document).ready(function() {
     nature: 'Nature Lover'
   }
   //Instagrammer
+  //Poor!
 
   var lengths = {
     threeDays: '3 days',
@@ -46,6 +47,9 @@ $(document).ready(function() {
       .children('option:selected')
       .val()
     $('#hero').addClass('small')
-    $("#post-container").css("display", "flex")
+    $('#post-container').css('display', 'flex')
+    $('#post-container').load('./content/nature.html', function() {
+      alert('DOne')
+    })
   })
 })
