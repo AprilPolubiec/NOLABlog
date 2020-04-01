@@ -48,8 +48,15 @@ $(document).ready(function() {
       .val()
     $('#hero').addClass('small')
     $('#post-container').css('display', 'flex')
-    $('#post-container').load('../html/nature.html', function() {
-      alert('DOne')
+    $('#post-container').load(`../html/${category}.html`, function() {
+      var imgs = document.querySelectorAll('img')
+      imgs.forEach(function(img, index) {
+        if (index % 2 === 0) {
+          img.className = 'even'
+        } else {
+          img.className = 'odd'
+        }
+      })
     })
   })
 })

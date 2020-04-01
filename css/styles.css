@@ -6,7 +6,7 @@ html {
 }
 
 select {
-  border:none;
+  border: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -18,7 +18,7 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 #hero {
@@ -32,7 +32,7 @@ button:focus {
   transition: 0.5s;
 }
 
-#hero.small{
+#hero.small {
   height: 25vh;
 }
 
@@ -110,4 +110,23 @@ button:focus {
 #post-container {
   min-height: 50vh;
   display: none;
+  flex-direction: column;
+  padding: 1rem 8rem;
+}
+
+#post-container h1 {
+  text-align: center;
+}
+
+#post-container h2 {
+}
+
+img.odd {
+  float: left;
+  margin: 0 2rem 1rem 0;
+}
+
+img.even {
+  float: right;
+  margin: 0 0rem 1rem 2rem;
 }
