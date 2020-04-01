@@ -48,7 +48,7 @@ $(document).ready(function() {
       .val()
     $('#hero').addClass('small')
     $('#post-container').css('display', 'flex')
-    $('#post-container').load('./content/nature.html', function() {
+    $('#post-container').load('../html/nature.html', function() {
       alert('DOne')
     })
   })
