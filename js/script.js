@@ -1,7 +1,7 @@
 $(document).ready(function() {
   //Fill category and visit length lists
   var categories = {
-    food: 'Foodie',
+    foodie: 'Foodie',
     music: 'Music Fan',
     celebrity: 'Celebrity Enthusiast',
     party: 'Party Animal',
@@ -12,6 +12,7 @@ $(document).ready(function() {
   }
   //Instagrammer
   //Poor!
+  //Ghost buster
 
   var lengths = {
     threeDays: '3 days',
