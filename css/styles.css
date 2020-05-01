@@ -167,8 +167,29 @@ img.even + a {
   position: absolute;
   right: 0;
   bottom: 0;
+  font-size: 0.4rem;
 }
 
 .img {
   position: relative;
+}
+
+@media only screen and (max-width: 425px) {
+  #post-container {
+    padding: 0.5rem;
+  }
+  img.even {
+    width: 200px;
+  }
+  img.odd {
+    width: 200px;
+  }
+  #hero-text .prompt > select {
+    font-size: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border-bottom: 1px solid #fff;
+  }
+  .prompt {
+    font-size: 1rem;
+  }
 }
