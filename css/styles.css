@@ -184,6 +184,9 @@ img.even + a {
   img.odd {
     width: 200px;
   }
+  img.odd + a {
+    bottom: -267px;
+  }
   #hero-text .prompt > select {
     font-size: 1rem;
     margin: 0 0.5rem 0 0.5rem;
