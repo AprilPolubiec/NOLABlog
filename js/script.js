@@ -13,6 +13,7 @@ $(document).ready(function() {
   //Instagrammer
   //Poor!
   //Ghost buster
+  //Architecture
 
   var lengths = {
     threeDays: '3 days',
