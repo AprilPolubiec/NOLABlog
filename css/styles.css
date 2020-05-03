@@ -147,20 +147,21 @@ button:focus {
 img.odd {
   width: 300px;
   float: left;
-  margin: 0 2rem 1rem 0;
+  padding-top: 1.0rem;
+  margin: 0rem 2rem 1rem 0;
 }
 
 img.odd + a {
   position: absolute;
   left: 0;
-  bottom: -313px;
+  bottom: -1rem;
   font-size: 0.4rem;
 }
 
 img.even {
   width: 300px;
   float: right;
-  margin: 0 0rem 1rem 2rem;
+  margin: 0.3rem 0rem 1rem 2rem;
 }
 
 img.even + a {
