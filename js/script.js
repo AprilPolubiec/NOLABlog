@@ -50,7 +50,7 @@ $(document).ready(function() {
       .val()
     $('#hero').addClass('small')
     $('#post-container').css('display', 'flex')
-    $('#post-container').load(`../html/${category}.html`, function() {
+    $('#post-container').load(`../html/${category}-${length}.html`, function() {
       var imgs = document.querySelectorAll('img')
       imgs.forEach(function(img, index) {
         if (index % 2 === 0) {

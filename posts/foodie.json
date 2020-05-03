@@ -1,0 +1,61 @@
+{
+  "threeDay": {
+    "title": "The Foodie's 3-day Guide to New Orleans",
+    "intro": "I hope you packed some loose-fitting clothes, because this one's not for the faint of heart (er... small of... stomach?). New Orleans is mostly famous for its cajun and creole cuisine (yes, <a href='https://www.louisianatravel.com/articles/cajun-vs-creole-food-what-difference'>they are different</a>), but is also a hotspot for culinary innovation from all over the world (most notably France, Spain, Italy & <a href='https://www.neworleans.com/things-to-do/multicultural/cultures/vietnamese/'>more recently, Vietnam</a>). With only 3 short days to explore, this guide will ensure that you taste all the foods exclusively found in New Orleans. If you want to learn more about the history of food, I recommend you check out the 5-day guide. ##Link here to 5-day guide",
+    "sections": [
+      {
+        "title": "Day 1 - French Quarter Fare",
+        "text": "It is only fitting to start our journey <a href='http://www.frenchquartercitizens.org/a-history-of-the-french-quarter/'>where it all began</a>. The French Quarter (also known as the Vieux Carr´e) streets might make you feel like you've been transported to Europe - you'll find narrow roads lined with French- and Spanish-inspired homes, beautiful cast-iron balconies, brick roads, & hidden alleyways. Perhaps the most iconic building in the French Quarter is St. Louis Cathedral, which takes us to our first stop... Breakfast <a href='https://stanleyrestaurant.com/'>Stanley Restaurant</a> 547 Saint Ann St Nestled in Jackson Square and catty-corner of the St. Louis Cathedral, this is the perfect spot to watch the day unfold as artists set up shop and buskers start warming up for their acts. Recommended dishes: Bananas Foster French Toast, Breaux Bridge Benedict, Eggs Benedict Poor Boy. Coffee/Tea <a href='https://www.pjscoffee.com/decatur/'>PJ's Coffee</a> 501 Decatur St PJ's is a New Orleans-based coffee shop which you'll see sprinkled throughout the city. They're known for their unique coffee bean flavors, including Southern Pecan, English Toffee, Southern Wedding Cake & Bananas Foster - and yes, that's the bean that's flavored, not syrup. Fun fact, their roasting facility is only 1 mile away from this location! Also, their Granita is unlike any other blended coffee drink you've had... It's blended in a slushy machine which makes its perfectly smooth, is made with espresso beans, and has minimal sugar (unless you ask for a flavored syrup). Full disclaimer - I used to work here so I may be a little biased, but this is hands-down my favorite coffee.Lunch Dinner Dessert"
+      },
+      { "title": "Day 2", "text": "" },
+      { "title": "Day 3", "text": "" }
+    ]
+  },
+  "fiveDay": {
+    "title": "The Foodie's 5-day Guide to New Orleans",
+    "intro": "",
+    "sections": [
+      {
+        "title": "Day 1",
+        "text": ""
+      },
+      { "title": "Day 2", "text": "" },
+      { "title": "Day 3", "text": "" },
+      { "title": "Day 4", "text": "" },
+      { "title": "Day 5", "text": "" }
+    ]
+  },
+  "oneWeek": {
+    "title": "The Foodie's 1-week Guide to New Orleans",
+    "intro": "",
+    "sections": [
+      { "title": "Day 1", "text": "" },
+      { "title": "Day 2", "text": "" },
+      { "title": "Day 3", "text": "" },
+      { "title": "Day 4", "text": "" },
+      { "title": "Day 5", "text": "" },
+      { "title": "Day 6", "text": "" },
+      { "title": "Day 7", "text": "" }
+    ]
+  },
+  "twoWeek": {
+    "title": "The Foodie's 2-week Guide to New Orleans",
+    "intro": "",
+    "sections": [
+      { "title": "Day 1", "text": "" },
+      { "title": "Day 2", "text": "" },
+      { "title": "Day 3", "text": "" },
+      { "title": "Day 4", "text": "" },
+      { "title": "Day 5", "text": "" },
+      { "title": "Day 6", "text": "" },
+      { "title": "Day 7", "text": "" },
+      { "title": "Day 8", "text": "" },
+      { "title": "Day 9", "text": "" },
+      { "title": "Day 10", "text": "" },
+      { "title": "Day 11", "text": "" },
+      { "title": "Day 12", "text": "" },
+      { "title": "Day 13", "text": "" },
+      { "title": "Day 14", "text": "" }
+    ]
+  }
+}
